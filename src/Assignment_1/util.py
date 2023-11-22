@@ -1,26 +1,29 @@
-def process_commands(the_list, commands):
+def process_commands(My_List, commands):
+# Here  i definrd a function
     for cmd in commands:
         input_cmd = cmd.split()
+# After that i am  using  if and elif conditions to identify the command.
 
         if input_cmd[0] == 'print':
-            print(the_list)
+#At the last command gets identified an operation is performed.
+            print(My_List)
 
         elif input_cmd[0] == 'insert':
-            the_list.insert(int(input_cmd[1]), int(input_cmd[2]))
+            My_List.insert(int(input_cmd[1]), int(input_cmd[2]))
 
         elif input_cmd[0] == 'remove':
-            the_list.remove(int(input_cmd[1]))
+            My_List.remove(int(input_cmd[1]))
 
         elif input_cmd[0] == 'append':
-            the_list.append(int(input_cmd[1]))
+            My_List.append(int(input_cmd[1]))
 
         elif input_cmd[0] == 'sort':
-            the_list.sort()
+            My_List.sort()
 
         elif input_cmd[0] == 'pop':
-            the_list.pop()
+            My_List.pop()
 
         elif input_cmd[0] == 'reverse':
-            the_list.reverse()
+            My_List.reverse()
 
-    return the_list
+    return My_List
