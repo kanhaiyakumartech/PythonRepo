@@ -2,3 +2,4 @@
 __pycache
 .pytest_cache
 .png
+__pycache__
