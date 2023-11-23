@@ -19,3 +19,4 @@ if __name__ == '__main__':
     output = list(student_marks[query_name])
     percentage = calculate_percentage(output)
     print("%.2f" % percentage)
+
