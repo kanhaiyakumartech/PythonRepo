@@ -11,3 +11,4 @@ if __name__ == '__main__':
     arr = map(int, input("Enter the elements separated by space: ").split())
     result = second_largest_element(arr)
     print(f"The second largest element is: {result}")
+    
