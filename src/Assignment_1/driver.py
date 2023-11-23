@@ -12,3 +12,4 @@ for _ in range(N):
     commands.append(input_cmd)
 
 process_commands(My_List, commands)
+
