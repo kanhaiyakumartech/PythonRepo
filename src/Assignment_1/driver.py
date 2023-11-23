@@ -1,3 +1,4 @@
+#here i impore our code in util file and call the method process_commands
 from util import process_commands
 #Here we are taking N variable to taking Number to command lines/operations.
 N = int(input("Enter the NUmber To Perform How many operations : "))

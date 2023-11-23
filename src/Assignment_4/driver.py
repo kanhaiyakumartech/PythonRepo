@@ -1,3 +1,4 @@
+#This code for Change the character in string by index value.
 from src.Assignment_4.util import My_mutate_string
 if __name__ == '__main__':
     s = input("Enter the String = ")

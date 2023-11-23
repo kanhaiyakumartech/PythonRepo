@@ -1,6 +1,5 @@
 import unittest
 from src.Assignment_1.util import process_commands
-
 class TestListCommands(unittest.TestCase):
     def test_process_commands(self):
         # Example test case

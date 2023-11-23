@@ -9,6 +9,6 @@ if __name__ == '__main__':
         student_marks[name] = scores
         #Now we have to enter  name of student those we want persentage.
     query_name = input()
-    output = list(student_marks[query_name])    
+    output = list(student_marks[query_name])
     per = sum(output)/len(output);
-    print("%.2f" % per); 
+    print("%.2f" % per);

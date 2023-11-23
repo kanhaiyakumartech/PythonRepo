@@ -1,12 +1,14 @@
-# driver.py
-#In this we used a collection of datatypes python known as an ordered dictionary.
-#Ordered dictionary Return an instance of a dict subclass that has methods specialized for rearranging dictionary order.
-#It also removes all the repeatations in the string.
-#Also in the top lines we have used string slicing to slice strings based on the parts needed.
-from util import merge_the_tools
+# This code for String divided in to according to key value.
+from collections import OrderedDict
+
+def merge_the_tools(string, k):
+    # your code goes here
+    i = 0
+    while i < len(string):
+        word1 = "".join(OrderedDict.fromkeys(string[i: i+k]))
+        print(word1)
+        i = i + k
 
 if __name__ == '__main__':
-    string, k = input("Enter the String Value= "), int(input("Enter the Key Value= "))
-    result = list(merge_the_tools(string, k))
-    for word in result:
-        print(word)
+    string, k = input(), int(input())
+    merge_the_tools(string, k)

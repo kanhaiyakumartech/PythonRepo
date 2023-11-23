@@ -1,3 +1,4 @@
+#Basically in this question we have to create a list and do some operation like insert append remove---
 def process_commands(My_List, commands):
 # Here  i definrd a function
     for cmd in commands:

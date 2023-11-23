@@ -1,4 +1,4 @@
-# driver.py
+# Thi scode for find the 2nd Greatest no in list .
 from util import second_largest_element
 
 if __name__ == '__main__':
